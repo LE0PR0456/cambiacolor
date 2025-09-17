@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/image/icon.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cambia tu color!</title>
+</head>
+<body>
+    <h1 class=" mt-10 text-8xl text-center">Tu numero es:</h1>
+
+    <h1 class="text-[310px] text-center">
+        <span id="valor">0</span>
+    </h1>
+
+    <div class="flex justify-center gap-10 text-[25px]">
+
+    <button id="boton2" class="bg-red-500 text-white border-1 rounded-full p-8 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer">Decrementar</button>
+    <button id="boton1" class="bg-green-500 text-white border-1 rounded-full p-8 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer">Incrementar</button>
+    <button id="boton3" class="bg-black text-white border-1 rounded-full p-8 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer">Reiniciar</button>
+
+    </div>
+   
+
+    <script src="./assets/js/contador.js"></script>
+</body>
+</html>
